@@ -1,0 +1,7 @@
+# .gitignore
+.env
+.env.local
+.env.*
+!env.example   # optional: keep a public example
+node_modules
+.DS_Store

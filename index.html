@@ -14,35 +14,31 @@
     </header>
 
     <main class="container">
-      <!-- Finished Tasks Page -->
       <section class="finished-section hidden">
-        <h2>✅ Finished Tasks</h2>
+        <h2>✅ finished tasks</h2>
         <ul id="finished-list"></ul>
-
         <div class="finished-buttons">
           <button id="back-btn" class="add-task-btn">
-            ← Back to Dashboard
+            ← back to dashboard
           </button>
           <button id="clear-finished-btn" class="add-task-btn danger">
-            Clear All Finished Tasks
+            clear all finished tasks
           </button>
         </div>
       </section>
 
-      <!-- Dashboard -->
       <section class="dashboard">
-        <h2>Dashboard</h2>
+        <h2>dashboard</h2>
         <div class="todo-section">
-          <h3>📝 To-Do List</h3>
+          <h3>📝 to-do list</h3>
           <ul id="todo-list"></ul>
-          <button id="manual-add-btn" class="add-task-btn">+ Add Task</button>
+          <button id="manual-add-btn" class="add-task-btn">+ add task</button>
           <button id="view-finished-btn" class="add-task-btn">
-            View Finished Tasks
+            view finished tasks
           </button>
         </div>
       </section>
 
-      <!-- Chat Section -->
       <section class="chat-section">
         <h2>chat</h2>
         <div class="chat-box" id="chat-box">
@@ -59,18 +55,19 @@
             placeholder="type a message..."
             autocomplete="off"
           />
-          <button id="send-btn">Send</button>
+          <button id="send-btn">send</button>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>built by Jasmine Tan © 2025</p>
+      <p>built by jasmine tan © 2025</p>
     </footer>
 
-    <div class="music-widget" id="music-widget">
-      <div class="music-icon">🎧</div>
+    <div class="music-widget">
+      <div class="music-icon" id="music-toggle">🎧</div>
       <iframe
+        id="music-player"
         src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
